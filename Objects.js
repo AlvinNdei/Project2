@@ -1,5 +1,4 @@
 //Objects and arrays provide ways to group several values into a single value.
-value.
 let car={
     Brand:"BMW",
     Properties:["Red","800cc",1200000]
