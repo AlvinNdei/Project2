@@ -11,3 +11,11 @@ console.log(object1==object2);
 let object3={value:10};
 //value is false for the below statement even though it is clearly seen they are the same.
 console.log(object1==object3)
+
+let myArray=[10,11,12,13,14];
+//usedto add an element to an array.
+myArray.push(15);
+//removes the last element in the array
+myArray.pop();
+console.log(myArray);
+
