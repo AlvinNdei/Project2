@@ -32,6 +32,7 @@
 
 //EXERCISES
 //I had to explicitely declare  both the start and end inputs to be integers so as to use them as numbers.
+//prompt only works with html and doesn't with node.js.
 let start=parseInt(prompt("Enter starting number"));
 let end=parseInt(prompt("Enter last number"));
 function sumRange(start,end){
