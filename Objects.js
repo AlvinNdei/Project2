@@ -42,7 +42,7 @@ function sumRange(start,end){
     }
     return sum;
 }
-console.log(sumRange(1,10));//Youcan also pass in start and end if you use the prompt function
+console.log(sumRange(1,10));//You can also pass in start and end if you use the prompt function
 
 //EXERCISE2 REVERSE AN ARRAY
 let Array=[1,2,3,4,5];
