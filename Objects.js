@@ -35,14 +35,14 @@ console.log(Math.max(...numbers));
 //prompt only works with html and doesn't with node.js.
 // let start=parseInt(prompt("Enter starting number"));
 // let end=parseInt(prompt("Enter last number"));
-// function sumRange(start,end){
-//     let sum=0;
-//     for(i=start;i<=end;i++){
-//         sum+=i;
-//     }
-//     return sum;
-// }
-// console.log(sumRange(start,end));
+function sumRange(start,end){
+    let sum=0;
+    for(i=start;i<=end;i++){
+        sum+=i;
+    }
+    return sum;
+}
+console.log(sumRange(1,10));//Youcan also pass in start and end if you use the prompt function
 
 //EXERCISE2 REVERSE AN ARRAY
 let Array=[1,2,3,4,5];
