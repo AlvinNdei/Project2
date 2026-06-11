@@ -47,3 +47,16 @@ console.log(sumRange(1,10));//You can also pass in start and end if you use the 
 //EXERCISE2 REVERSE AN ARRAY
 let Array=[1,2,3,4,5];
 console.log(Array.reverse());
+
+//Alinked list
+let myList={
+    value:1,
+    rest:{
+        value:2,
+        rest:{
+            value:3,
+            rest:null
+        }
+    }   
+};
+console.log(myList)
