@@ -22,7 +22,7 @@ myArray.push(15);
 myArray.pop();
 console.log(myArray);
 
-//other JS functions include .indexOf, .slice(4,7), .lastIndexOf(), .trim(), .split(), .join(), .repeat(), .length(), .reverse()
+//other JS functions include .indexOf, .slice(4,7), .lastIndexOf(), .trim(), .split(), .join(), .repeat(), .length(), .reverse(), typeof()
 let sentence="I am a JS developer";
 let words=sentence.split(" ");
 console.log(words);
