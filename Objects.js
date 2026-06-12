@@ -88,16 +88,10 @@ for(item of myArray3){
 }
 
 //create a method that is to be used by differnt types of cars
-// function cars(drive){
-//     console.log("I am driving the ${this.color} ${drive}");
-// }
-// let bmw={color:"white",cars};
-// bmw.cars=("BMW");
-
-
 function drive(driving) {
 console.log(`The ${this.color} car is a '${driving}'`);
 }
 let car1 = {color: "white", drive};
 let car2 = {color: "blue", drive};
 car1.drive("BMW");
+car2.drive("Toyota");
