@@ -48,15 +48,25 @@ console.log(sumRange(1,10));//You can also pass in start and end if you use the 
 let Array=[1,2,3,4,5];
 console.log(Array.reverse());
 
-//Alinked list
+//A linked list
 let myList={
     value:1,
     rest:{
         value:2,
         rest:{
             value:3,
-            rest:null
+            rest:{
+                value:3,
+                rest:null
+            }
         }
     }   
 };
-console.log(myList)
+console.log(myList.rest)
+
+
+//A simple for loop
+let count=10;
+for(let i=0;i<count;i++){
+    console.log(i)
+}
