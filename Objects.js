@@ -87,6 +87,11 @@ for(item of myArray3){
     console.log(item)
 }
 
+let colors=["Red","White","Green"]
+colors.forEach(function(color){
+    console.log(`Color: ${color}`)
+})
+
 //create a method that is to be used by differnt types of cars
 function drive(driving) {
 console.log(`The ${this.color} car is a '${driving}'`);
