@@ -70,3 +70,10 @@ let count=10;
 for(let i=0;i<count;i++){
     console.log(i)
 }
+
+
+//using unit codes. Strings and character codes. 
+let smileyface="😊😁"
+for(let char of smileyface){
+    console.log(char)
+}
