@@ -77,3 +77,13 @@ let smileyface="😊😁"
 for(let char of smileyface){
     console.log(char)
 }
+//throws a bug 
+console.log(smileyface[0])
+
+
+//a for each loop to iterate through the array
+let myArray3=["school","hall","parade"]
+for(item of myArray3){
+    console.log(item)
+}
+    
