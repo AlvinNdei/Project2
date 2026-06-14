@@ -1,0 +1,7 @@
+/*. for class and # for id */
+#head{
+    text-align:center;
+}
+body{
+    background-color:linear-gradient(to bottom,rgb(255, 115, 0),rgb(0, 140, 255));
+}
