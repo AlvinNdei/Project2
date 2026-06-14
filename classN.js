@@ -1,5 +1,5 @@
 let toggleButton=document.getElementById("modeToggle");
-let body=document.body
+let body=document.body;
 toggleButton.addEventListener("click",function(){
     body.classList.toggle("dark-mode");
 
