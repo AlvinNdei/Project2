@@ -134,3 +134,16 @@ function evaluate(val){
     return answer;
 }
 console.log(evaluate(3));
+
+//classes in js
+class dog{
+    //a constructor or  method is required
+    constructor (bread,sound){
+        this.bread;
+        this.bark;
+        function bark(){
+            console.log("The dog is barking!!")
+        }
+    }
+}
+console.log(bark());
