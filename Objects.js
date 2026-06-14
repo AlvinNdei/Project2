@@ -146,6 +146,26 @@ class dog{
             let dog1= new dogs("German","WoofWoof")
             console.log("The "+bread+" dog is making the sound "+sound);
         }
-    }
-    
+    }  
 }
+
+//JS maps
+// let ages={
+//     Alvin:20,
+//     jay:17,
+//     larry:3
+// }
+// console.log(`Alvin is ${ages["Alvin"]} years old.`);
+let ages=[
+    Alvin=20,
+    Jay=17,
+    Larry=3
+];
+console.log(ages.length);//undefined
+function dis(){
+    for(let i=0;i<=ages.length;i++){
+        console.log(`${ages(Object.keys)} is ${ages[value]} years old.`);
+    }
+}
+dis();
+
