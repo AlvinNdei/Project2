@@ -106,7 +106,7 @@ car2.drive("Toyota");
 let myGlobal="I am a global variable"
 function determine(){
     if (myGlobal!=undefined){
-        console.log("We have a global variable "+myGlobal)
+        console.log("We have a global variable "+ myGlobal)
     }else if(myGlobal===undefined){
         console.log("We don,t have a global variable!!")
     }
