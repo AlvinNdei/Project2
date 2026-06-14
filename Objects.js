@@ -159,14 +159,13 @@ console.log(`Alvin is ${persons["Alvin"]} years old.`);
 
 //Execise
 let ages={
-    Alvin:20,
-    Jay:17,
-    Larry:3
+    name:["Alvin","Jay","Larry"],
+    age:[20,17,3]
 };
-console.log(ages);
+count=Object.keys(ages).length;
 function dis(){
-    for(let i=0;i<=ages.length;i++){
-        console.log(ages);
+    for(let i=0;i<=count;i++){
+        console.log(`${ages["name"]} are ${ages["age"]} years old.`);
     }
 }
 dis();
