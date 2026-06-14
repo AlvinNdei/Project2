@@ -136,6 +136,7 @@ function evaluate(val){
 console.log(evaluate(3));
 
 //classes in js
+//code not working at the moment
 class dog{
     //a constructor or  method is required
     constructor (bread,sound){
