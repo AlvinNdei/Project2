@@ -5,6 +5,7 @@
 body{
     background-color:antiquewhite;
     font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
     /* background:linear-gradient(135deg,rgb(228, 177, 81),rgb(56, 56, 199)); */
 }
 a{
