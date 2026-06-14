@@ -1,15 +1,17 @@
 /*. for class and # for id */
+:root{
+    background-color:antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth; 
+}
 #head{
     text-align:center;
 }
-body{
-    background-color:antiquewhite;
-    font-family:Arial, Helvetica, sans-serif;
-    scroll-behavior:smooth;
-    /*When styling the back-ground color using linear gradient use 
+/* body{
+    When styling the back-ground color using linear gradient use 
     background:linear-gradient(direction,color1,color2);
-    e.g background:linear-gradient(135deg,orange,blue);*/
-}
+    e.g background:linear-gradient(135deg,orange,blue);
+} */
 a{
     color:black;
 }
