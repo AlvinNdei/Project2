@@ -7,4 +7,4 @@ submit.addEventListener("click",function(){
 });
 contact.addEventListener("click", function(){
     console.log("contact button")
-})
+});
