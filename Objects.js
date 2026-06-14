@@ -140,10 +140,11 @@ class dog{
     //a constructor or  method is required
     constructor (bread,sound){
         this.bread;
-        this.bark;
-        function bark(){
-            console.log("The dog is barking!!")
+        this.sound;
+        function dogs(bread,sound){
+            let dog1= new dogs("German","WoofWoof")
+            console.log("The "+bread+" dog is making the sound "+sound);
         }
     }
+    
 }
-console.log(bark());
