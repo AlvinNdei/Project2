@@ -23,6 +23,7 @@ myArray.pop();
 console.log(myArray);
 
 //other JS functions include .indexOf, .slice(4,7), .lastIndexOf(), .trim(), .split(), .join(), .repeat(), .length(), .reverse(), typeof()
+//.shift([]) removes the first element of an array while the .unshift([]) adds an element to the begining of the array
 let sentence="I am a JS developer";
 let words=sentence.split(" ");
 console.log(words);
@@ -100,3 +101,14 @@ let car1 = {color: "white", drive};
 let car2 = {color: "blue", drive};
 car1.drive("BMW");
 car2.drive("Toyota");
+
+//we can also have global variables that can be accessed anywhere in a JS program. they are usually declared outside functions e.g 
+let myGlobal="I am a global variable"
+function determine(){
+    if (myGlobal!=undefined){
+        console.log("We have a global variable "+myGlobal)
+    }else if(myGlobal===undefined){
+        console.log("We don,t have a global variable!!")
+    }
+}
+determine();
