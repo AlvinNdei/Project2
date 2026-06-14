@@ -3,5 +3,11 @@
     text-align:center;
 }
 body{
-    background-color:linear-gradient(to bottom,rgb(255, 115, 0),rgb(0, 140, 255));
+    background-color:antiquewhite;
+}
+a{
+    color:black;
+}
+a:hover{
+    color:rgb(0, 247, 255);
 }
