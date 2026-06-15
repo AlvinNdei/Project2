@@ -174,3 +174,24 @@ function dis(){
 }
 dis();
 //private properties are assigned using the # sign
+
+
+//exercise on classes
+class Vec{
+    constructor(x,y){
+        this.x=x;
+        this.y=y;
+    }
+    plus(){
+        let sum=this.x+this.y;
+        console.log(sum);
+    }
+    minus(){
+        let diff=this.x-this.y;
+        console.log(diff);
+    }
+}
+//an instance of our vector
+const vec = new Vec(3,2);
+vec.plus();
+vec.minus();
