@@ -137,19 +137,23 @@ console.log(evaluate(3));
 
 //classes in js
 //code not working at the moment
-class dog{
-    //a constructor or  method is required
-    constructor (bread,sound){
-        this.bread;
-        this.sound;
-        function dogs(bread,sound){
-            let dog1= new dogs("German","WoofWoof")
-            console.log("The "+bread+" dog is making the sound "+sound);
-        }
-    }  
+class Person{
+    constructor(name,age){
+        //initializing our constructor
+        this.name=name;
+        this.age=age;
+    }
+    //a method(function) in our class
+    greet(){
+        console.log(`Hello, my name is ${this.name} and i'm ${this.age} years old.`)
+    }
 }
+//creating an instance of a class
+const person = new Person('Alvin',20);
+//calling our function through the instance of the class
+person.greet();
 
-//JS maps
+// JS maps
 let persons={
     Alvin:20,
     jay:17,
