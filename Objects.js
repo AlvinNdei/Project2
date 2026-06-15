@@ -222,3 +222,6 @@ let reg2=/1234abcdef/
 let reg3=/abxde/
 console.log(reg1.test(reg2))//output is true
 console.log(reg1.test(reg3))//output is false
+console.log(/[0:9]/.test("1929"))//true
+//International characters
+//\p{L}-Any letter, \p{N}-Any numeric character, \p{N}-Any numeric character, \P{L}-Any nonletter (uppercase P inverts), \p{Script=Hangul}-Any character from the given script
