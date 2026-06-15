@@ -211,6 +211,8 @@ try{
 }
 
 //RegularExpressions(RegExp)
+/*Regular expressions are objects that represent patterns in strings. 
+They use their own language to express these patterns.*/
 //ways of creating regexp
 let re1=new RegExp("abc");
 //or
