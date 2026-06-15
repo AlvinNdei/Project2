@@ -209,3 +209,16 @@ try{
 }finally{
     console.log("This block runs regardless");
 }
+
+//RegularExpressions(RegExp)
+//ways of creating regexp
+let re1=new RegExp("abc");
+//or
+let re2=/abc/;
+console.log(re2);
+//testing for matches in regular expressions patterns
+let reg1=/abc/
+let reg2=/1234abcdef/
+let reg3=/abxde/
+console.log(reg1.test(reg2))//output is true
+console.log(reg1.test(reg3))//output is false
