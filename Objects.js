@@ -195,15 +195,17 @@ class Vec{
 const vec = new Vec(3,2);
 vec.plus();
 vec.minus();
+
 //exceptions
 let a=0;
 let b=4;
 function division(){
     let div=a/b;
-    
 }
 try{
     console.log("The division between an and b is:" + division());
 }catch(error){
     console.log("An error was encountered: " + error);
+}finally{
+    console.log("This block runs regardless");
 }
