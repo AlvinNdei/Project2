@@ -173,4 +173,4 @@ function dis(){
     }
 }
 dis();
-
+//private properties are assigned using the # sign
