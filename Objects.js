@@ -236,6 +236,6 @@ console.log(/\p{L}/u.test("a"));//true
 // import {addition} from"./script.js"
 // addition();
 
-//packages from npm
+//packages from NPM
 // import {parse} from "ini";
 // console.log(parse("x = 10\ny = 20"));
