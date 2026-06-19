@@ -235,3 +235,7 @@ console.log(/\p{L}/u.test("a"));//true
 // // we are importing a module form another file through the import keyword 
 // import {addition} from"./script.js"
 // addition();
+
+//packages from npm
+// import {parse} from "ini";
+// console.log(parse("x = 10\ny = 20"));
