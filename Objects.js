@@ -230,3 +230,8 @@ console.log(/[0:9]/.test("1929"))//true
 //usage
 console.log(/\p{L}/u.test(1))//false comparing letters to numbers
 console.log(/\p{L}/u.test("a"));//true
+
+// // modules
+// // we are importing a module form another file through the import keyword 
+// import {addition} from"./script.js"
+// addition();

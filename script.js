@@ -7,3 +7,11 @@ submit.addEventListener("click",function(){
 // contact.addEventListener("click", function(){
 //     console.log("contact button")
 // });
+
+
+// //modules and how to import and export them
+// export function addition(a,b){
+//     let sum =a+b;
+//     return (sum);
+// }
+// console.log(addition(4,3));
