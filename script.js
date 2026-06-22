@@ -7,7 +7,10 @@ submit.addEventListener("click",function(){
 contact.addEventListener("click", function(){
     console.log("contact button")
 });
-
+ 
+window.addEventListener("click",()=>{
+    console.log("You clicked the window");
+})
 
 // //modules and how to import and export them
 // export function addition(a,b){
