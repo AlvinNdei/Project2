@@ -11,6 +11,14 @@ contact.addEventListener("click", function(){
 window.addEventListener("click",()=>{
     console.log("You clicked the window");
 })
+let limited=document.getElementById("limited")
+function counting(){
+    for(let count=0;count<5;count++){
+        console.log("You clicked me")   
+    }
+    limited.removeEventListener("click",counting)
+}
+limited.addEventListener("click",counting)
 
 // //modules and how to import and export them
 // export function addition(a,b){
