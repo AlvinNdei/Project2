@@ -12,6 +12,7 @@ window.addEventListener("click",()=>{
     console.log("You clicked the window");
 })
 let limited=document.getElementById("limited")
+// the function is yet to be improved coz at the moment it clicks five times at once instead of a single time
 function counting(){
     for(let count=0;count<5;count++){
         console.log("You clicked me")   
